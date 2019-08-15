@@ -1,0 +1,183 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Jurist</string>
+    <string name="lawyer_registration">LAWYER REGISTRATION</string>
+    <string name="lawyer_icon" />
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="lawyer_mail">lawyer_mail</string>
+    <string name="email">EMAIL</string>
+    <string name="phone_no">PHONE NO    (Eg: +947########)</string>
+    <string name="city">CHOOSE YOUR CITY</string>
+    <string name="case_type">CHOOSE YOUR CASE TYPE</string>
+    <string name="reference_no">REFERENCE NO</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="cancel">CANCEL</string>
+    <string name="create_your_password">CREATE YOUR PASSWORD</string>
+    <string name="password_icon" />
+    <string name="re_enter_password">RE-ENTER PASSWORD</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="login_main">LOGIN</string>
+    <string name="sign_up_main">SIGN UP</string>
+    <string name="login_password">PASSWORD</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login_cancel">CANCEL</string>
+    <string name="login_email">EMAIL</string>
+    <string name="jurist" />
+    <string name="below_login">Already have an account? Login.</string>
+    <string name="below_signup">Do not have an account? Sign Up.</string>
+    <string name="auth_failed">Fail</string>
+    <string name="minimum_password">Minimum</string>
+    <string name="ProgressBar">progressBar</string>
+    <string name="Forgot_password">Forgot Password?</string>
+    <string name="Forgot_button">RESET PASSWORD</string>
+    <string name="Forgot_email">Enter Your Email Address...</string>
+    <string name="hello">HELLO!</string>
+    <string name="choose_your_city">CITY</string>
+    <string name="caption">Find a lawyer at your finger tips!</string>
+    <string name="main_jurist" />
+    <string name="main_icon" />
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="first_layout">First Layout</string>
+    <string name="second_layout">Second Layout</string>
+    <string name="third_layout">Third Layout</string>
+    <string name="title_activity_lawyer">lawyer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="sarah_john">SARAH JOHN</string>
+    <string name="enter_your_email_address">Enter Your Email Address...</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="forth_layout">Forth layout</string>
+    <string name="phone_no_eg_947">PHONE NO (Eg: +947########)</string>
+    <string name="gavel" />
+    <string name="lawyer_login">LAWYER LOGIN</string>
+    <string name="circle" />
+    <string name="girl" />
+    <string name="sarah_john_small">Sarah John</string>
+    <string name="phone_number">City</string>
+    <string name="profile_city">Phone Number</string>
+    <string name="advanced_payment">Advanced Payment</string>
+    <string-array name="city">
+        <item>JAFFNA</item>
+        <item>KILINOCHI</item>
+        <item>MANNAR</item>
+        <item>MULLAITIVU</item>
+        <item>VAVUNIYA</item>
+        <item>PUTTALAM</item>
+        <item>KURUNEGALA</item>
+        <item>GAMPAHA</item>
+        <item>COLOMBO</item>
+        <item>KALUTHARA</item>
+        <item>ANURADHAPURA</item>
+        <item>POLONNARUWA</item>
+        <item>MATALE</item>
+        <item>KANDY</item>
+        <item>NUWARA ELIYA</item>
+        <item>KEGALLE</item>
+        <item>RATHNAPURA</item>
+        <item>TRINCOMALE</item>
+        <item>BATTICALOA</item>
+        <item>AMPARA</item>>
+        <item>BADDDULA</item>
+        <item>MONARAGALA</item>
+        <item>HAMBANTOTA</item>
+        <item>MATARA</item>
+        <item>GALLE</item>
+    </string-array>
+
+    <string-array name="case_type">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_third">Third</string>
+    <string name="title_activity_forth">Forth</string>
+    <string name="changepassword">ChangePassword</string>
+    <string name="edit">Edit</string>
+    <string name="email_update">Email</string>
+    <string name="phone_number_update">Phone Number:</string>
+    <string name="name">Name:</string>
+    <string name="textview">TextView</string>
+    <string name="sample">sample</string>
+    <string name="title_activity_profile">profileActivity</string>
+    <string name="title_activity_jurist">Jurist</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="past">Past</string>
+    <string name="schedule">Schedule</string>
+    <string name="lawyer_name"></string>
+    <string name="lawyer_email"></string>
+    <string name="profile_name"></string>
+    <string name="profile_email"></string>
+    <string name="profile_last"></string>
+    <string name="profile_phone"></string>
+    <string name="profile_reference"></string>
+    <string name="logout"></string>
+    <string name="choose_image">CHOOSE IMAGE</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="todo">TODO</string>
+    <string name="profile_details">PROFILE DETAILS</string>
+    <string name="edit_profile_picture">EDIT PROFILE PICTURE</string>
+    <string name="shedule">SHEDULE</string>
+    <string name="save">SAVE</string>
+    <string name="event" />
+    <string name="date" />
+    <string name="time" />
+
+    <string name="create_cancel" />
+    <string name="create">CREATE</string>
+    <string name="yyyy_mm_dd_hh_mm">YYYY.MM.DD.HH.MM</string>
+    <string name="field_2">Field 2</string>
+    <string name="field_3">Field 3</string>
+    <string name="field_4">Field 4</string>
+    <string name="button">Button</string>
+    <string name="lawyer_event" />
+    <string name="events">EVENTS</string>
+    <string name="DATE">YYYY-MM-DD HH:MM</string>
+    <string name="create_button">CREATE</string>
+    <string name="view_events">VIEW EVENTS</string>
+    <string name="your_events">YOUR EVENTS</string>
+    <string name="choose">CHOOSE</string>
+    <string name="upload">UPLOAD</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="update_profile">UPDATE PROFILE</string>
+    <string name="profession">Profession</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="update">UPDATE</string>
+    <string name="first_name_update">FIREST NAME</string>
+    <string name="last_name_update">LAST NAME</string>
+    <string name="phone_num">PHONE NUMBER</string>
+    <string name="email_new">YOU CAN\'T CHANGE EMAIL</string>
+    <string name="reference_number">YOU CAN\'T CHANGE REFERENCE NO</string>
+    <string name="customer">CUSTOMER</string>
+    <string name="lawyer">LAWYER</string>
+    <string name="login_customer">LOGIN</string>
+    <string name="sign_up_customer">SIGN UP</string>
+    <string name="customer_icon" />
+    <string name="customer_registration">CUSTOMER REGISTRATION</string>
+    <string name="customer_login">CUSTOMER LOGIN</string>
+    <string name="title_activity_customer_navigation">customerNavigation</string>
+    <string name="reserve">Reserve</string>
+    <string name="log_out">Log out</string>
+    <string name="ref_no">REFERENCE NO</string>
+    <string name="search_here">Search here...</string>
+    <string name="lawyers_search">RESERVE LAWYER</string>
+    <string name="username">Username</string>
+    <string name="todo_2">TODO</string>
+    <string name="choose_time">CHOOSE TIME SLOT </string>
+    <string name="view_time_slots"> VIEW TIME SLOTS </string>
+    <string name="finished">Finished</string>
+
+
+</resources>

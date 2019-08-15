@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:background="@color/colorPrimaryDark"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_24px"
+            android:title="@string/home"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_account_box_24px"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_event_24px"
+            android:title="@string/schedule" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_view_list_24px"
+            android:title="@string/past" />
+        <item
+            android:id="@+id/nav_extra"
+            android:icon="@drawable/ic_notifications_active_24px"
+            android:title="@string/notifications" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_input_24px"
+            android:title="Log out" />
+    </group>
+
+
+</menu>

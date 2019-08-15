@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "796716473341",
+    "firebase_url": "https://jurist-8b212.firebaseio.com",
+    "project_id": "jurist-8b212",
+    "storage_bucket": "jurist-8b212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796716473341:android:9422f78ec0b5f666",
+        "android_client_info": {
+          "package_name": "com.example.jurist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796716473341-csug1v90070n278fhk5dgh22c5ug5f3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jurist",
+            "certificate_hash": "d367140e6c89f0d839ae9351e933f5f3c0f53584"
+          }
+        },
+        {
+          "client_id": "796716473341-7iac89mjvg0hjm7t3u7l5ubge95tgj66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZUaClDbcSEhp5XshsLfKTRBtOpzLZZEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796716473341-7iac89mjvg0hjm7t3u7l5ubge95tgj66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jurist"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".updateCustomerprofile"></activity>
+        <activity android:name=".sms" />
+        <activity android:name=".notifcationCustomerActivity" />
+        <activity android:name=".pastCustomerActivity" />
+        <activity android:name=".ScheduleCustomerActivity" />
+        <activity android:name=".profileCustomerActivity" />
+        <activity
+            android:name=".customerNavigation"
+            android:label="@string/title_activity_customer_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".homeCustomer">
+            <intent-filter>
+                <action android:name=".homeCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginCustomer">
+            <intent-filter>
+                <action android:name=".loginCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".customer">
+            <intent-filter>
+                <action android:name=".customer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".initial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".updateProfile" />
+        <activity android:name=".eventHistory" />
+        <activity android:name=".profileActivity" />
+        <activity
+            android:name=".Jurist"
+            android:label="@string/title_activity_jurist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".notifcationActivity" />
+        <activity android:name=".pastActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ForgotPassword">
+            <intent-filter>
+                <action android:name=".ForgotPassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".progressBar">
+            <intent-filter>
+                <action android:name=".progressBar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name=".home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name=".login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Edit">
+            <intent-filter>
+                <action android:name=".Edit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Reserve">
+            <intent-filter>
+                <action android:name=".Reserve" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PastOrders">
+            <intent-filter>
+                <action android:name=".PastOrders" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Past">
+            <intent-filter>
+                <action android:name=".Past" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CustomerEventHistory">
+            <intent-filter>
+                <action android:name=".CustomerEventHistory" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
